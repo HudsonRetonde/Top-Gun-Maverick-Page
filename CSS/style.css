@@ -122,3 +122,8 @@ body {
 ._introducao-itens p {
     padding: 4px;
 }
+
+._aeronaves-container img {
+    width: 240px;
+    height: 240px;
+}
