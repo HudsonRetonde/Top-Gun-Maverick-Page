@@ -124,6 +124,63 @@ body {
 }
 
 ._aeronaves-container img {
-    width: 240px;
+    width: 300px;
     height: 240px;
+    border-radius: 4px;    
+    border: solid rgba(5, 1, 42, 0.679); 
 }
+
+._aeronaves-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;   
+    padding-top: 25px;  
+}
+
+.package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(100, 91, 91);
+    flex-direction: column;
+    width: 89%;
+    border-radius: 4px;      
+    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%); 
+}
+
+._aeronaves-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+    height: 50vh;
+}
+
+._aeronaves-box h3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+._img-f-18 {
+    padding-right: 100px;
+}
+
+._text-f-18 {
+    padding-right: 220px;
+    background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+}
+
+._img-sukhoi {
+    padding-right: 220px;
+}
+
+._text-sukhoi {
+    padding-right: 250px;
+    background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+}
+
+
+
