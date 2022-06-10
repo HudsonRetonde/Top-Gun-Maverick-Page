@@ -85,7 +85,7 @@ body {
 }
 
 ._introducao-title h1 {
-    font-size: 40px;
+    font-size: 40px;    
 }
 
 ._introducao-text {
@@ -93,7 +93,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 100%;    
 }
 
 ._trailer {
@@ -124,10 +124,14 @@ body {
 }
 
 ._aeronaves-container img {
-    width: 300px;
+    width: 400px;
     height: 240px;
     border-radius: 4px;    
     border: solid rgba(5, 1, 42, 0.679); 
+}
+
+._aeronaves-container p {
+    padding-bottom: 10px;
 }
 
 ._aeronaves-container{
@@ -139,15 +143,21 @@ body {
     padding-top: 25px;  
 }
 
-.package {
+._package {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
     border: solid rgb(100, 91, 91);
     flex-direction: column;
     width: 89%;
     border-radius: 4px;      
     background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%); 
+}
+
+._package h2 {
+    font-size: 40px;
+    
 }
 
 ._aeronaves-box {
@@ -162,25 +172,78 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 ._img-f-18 {
-    padding-right: 100px;
+    padding-left: 15px;
 }
 
 ._text-f-18 {
-    padding-right: 220px;
+    padding-left: 50px;
     background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
+}
+
+._text-f14 {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
 }
 
 ._img-sukhoi {
-    padding-right: 220px;
+    padding-left: 25px;
 }
 
 ._text-sukhoi {
-    padding-right: 250px;
     background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
 }
+
+._text-p51 {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
+}
+
+._img-darkStar{
+    padding-left: 35px;
+}
+
+._text-darkStar {
+    background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    padding-right: 100px;
+    height: 240px;
+}
+
+._text-h2r {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
+}
+
+._img-gpz{
+    padding-left: 50px;
+}
+
+._gpz-text {
+    background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+    text-align: center;
+    width: 50%;
+    height: 240px;
+}
+
+
+
 
 
 
