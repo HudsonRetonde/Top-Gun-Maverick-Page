@@ -63,8 +63,7 @@
             <div class="_text-elenco">
                 <h2>Elenco</h2>
             </div>
-        </div>
-        <div class="_elenco-box">            
+            <div class="_elenco-box">            
             <div class="_card-1">
                 <img src="imagens e icones/TomCruise.jpg" alt="">
                 <div class="_input-name">
@@ -354,6 +353,8 @@
                 </div>   
             </div>            
         </div> 
+        </div>
+        
     </section>
     <section>
         <div class="_aeronaves-container">
@@ -433,5 +434,14 @@
         </div>
     </section>   
     <script src="JS/carrossel.js"></script>
+    <script type="text/javascript" src="JS/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("._card-1"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
 </body>
 </html>
