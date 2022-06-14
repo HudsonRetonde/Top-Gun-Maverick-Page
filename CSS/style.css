@@ -123,11 +123,125 @@ body {
     padding: 4px;
 }
 
+._container-elenco {
+    width: 100%;
+    height: 380vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+._elenco-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._elenco-box {
+    width: 89%;
+    height: 375vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(100, 91, 91);
+    border-radius: 4px;
+    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+    padding-bottom: 25px;
+}
+
+._text-elenco {
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+._text-elenco h2 {
+    font-size: 40px; 
+}
+
+._cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+._card-1 {
+    width: 220px;
+    height: 390px;
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);    
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 10px 5px 20px rgb(3, 0, 16);
+    padding: 10px;
+    border: solid #c7c7c7;
+}
+
+._elenco-box img {
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    border: solid #434343;
+}
+
+._input-name, ._input-nascimento, ._sucessos {
+    width: 180px;
+    height: 20px;
+    color: #d8d0bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #434343;
+    border-radius: 4px;
+}
+
+._input-nascimento {
+    font-size: 13px;
+}
+
+._sucessos {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+._sucessos h4 {
+    text-align: start;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+._sucessos span {
+    text-align: justify;
+    font-size: 12px;
+}
+
+
 ._aeronaves-container img {
     width: 400px;
     height: 240px;
     border-radius: 4px;    
     border: solid rgba(5, 1, 42, 0.679); 
+}
+
+._aeronaves-container img:hover {
+    border-color: #c78c19;
+    transform: scale(1.2);
+    transition: 0.7s;
+    
 }
 
 ._aeronaves-container p {
@@ -165,7 +279,7 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 100%; 
-    height: 50vh;
+    height: 60vh;
 }
 
 ._aeronaves-box h3 {
@@ -242,88 +356,18 @@ body {
     height: 240px;
 }
 
-._container-elenco {
-    width: 100%;
-    height: 420vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-._elenco-itens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-._elenco-box {
-    width: 89%;
-    height: 390vh;
-    padding: 50px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: solid red;  
-    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
-}
-
-._card-1 {
-    width: 220px;
-    height: 390px;
+button {
     background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);    
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    box-shadow: 10px 5px 20px rgb(3, 0, 16);
-    padding: 10px;
-    border: solid #c7c7c7;
-}
-
-._elenco-box img {
-    width: 180px;
-    height: 180px;
-    border-radius: 6px;
-    border: solid #434343;
-}
-
-._input-name, ._input-nascimento, ._sucessos {
-    width: 180px;
-    height: 20px;
-    color: #d8d0bb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #434343;
     border-radius: 4px;
+    color: #c7c7c7;
+    width: 90px;
 }
 
-._input-nascimento {
-    font-size: 13px;
+._f-18-extra, ._f-14-extra, ._sukhoi-extra, ._p51-extra, ._dark-extra, ._h2r-extra, ._gpz-extra {
+    color: #4169E1;
+    display: none;
 }
 
-._sucessos {
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-}
-
-._sucessos h4 {
-    text-align: start;
-    font-size: 15px;
-    padding-top: 3px;
-}
-
-._sucessos span {
-    text-align: justify;
-    font-size: 12px;
-}
 
 
 
