@@ -21,7 +21,7 @@ header img {
 }
 
 body {
-    background-image: linear-gradient(315deg, #fffffc 0%, #d8d0bb 74%);
+    background: #d8d0bb;
 }
 
 ._carrossel-wrap {
@@ -171,8 +171,6 @@ body {
     width: 100%;
     height: 100%;
 }
-
-
 
 ._card-1 {
     width: 220px;
@@ -372,11 +370,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 25px;
-    height: 150vh;
+    height: 273vh;
 }
 
-._curiosidade1, ._curiosidade2 {
+._curiosidade1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -394,23 +391,23 @@ button {
     padding: 10px;
 }
 
-._curiosidades-title h3 {
+._curiosidades-title h3, ._curiosidade-title2 h3, ._curiosidade-title3 h3, ._curiosidade-title4 h3, ._curiosidade-title5 h3, ._curiosidade-title6 h3  {
     padding-bottom: 20px;
 }
 
-._curiosidade1 img{
+._curiosidade1 img, ._curiosidade-title2 img, ._curiosidade-title3 img, ._curiosidade-title4 img, ._curiosidade-title5 img, ._curiosidade-title6 img  {
     width: 320px;
     border-radius: 4px;
-    border: solid yellow;
+    border: solid #4169E1;
 }
 
-._curiosidade1 img:hover {
-    border-color: yellowgreen;
+._curiosidade1 img:hover, ._curiosidade-title2 img:hover, ._curiosidade-title3 img:hover, ._curiosidade-title4 img:hover, ._curiosidade-title5 img:hover, ._curiosidade-title6 img:hover {
+    border-color: yellow;
     transform: scale(1.2);
     transition: 0.7s;    
 }
 
-._curiosidade1-text, ._curiosidade2-text {
+._curiosidade1-text {
     width: 60%;
     height: 45vh;
     display: flex;
@@ -424,10 +421,40 @@ button {
     text-align: start;
 }
 
-._curiosidade1-text li {
+._curiosidade1-text li, ._curiosidade2-text p, ._curiosidade3-text p, ._curiosidade4-text p, ._curiosidade5-text p, ._curiosidades6-text p {
     padding: 10px;
 }
 
+._curiosidades6-text li {
+    padding: 6px;
+ }
+
+
+._curuosidade2, ._curiosidade3, ._curiosidade4, ._curiosidade5, ._curiosidade6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+._curiosidade-title2, ._curiosidade-title3, ._curiosidade-title4, ._curiosidade-title5, ._curiosidade-title6 {
+    width: 40%;
+    text-align: center;
+}
+
+._curiosidade2-text, ._curiosidade3-text, ._curiosidade4-text, ._curiosidade5-text, ._curiosidade6-text {
+    width: 60%;
+    background-image: linear-gradient(to left, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+}
+
+._curiosidade3-text, ._curiosidade4-text, ._curiosidades6-text {
+    padding-top: 30px;
+}
+
+a {
+    color: black;
+}
 
 
 
