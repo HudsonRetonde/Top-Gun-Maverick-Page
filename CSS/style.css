@@ -159,7 +159,7 @@ body {
     padding-top: 20px;
 }
 
-._text-elenco h2 {
+._text-elenco h2, ._curiosidades-box h2 {
     font-size: 40px; 
 }
 
@@ -236,7 +236,7 @@ body {
 }
 
 ._aeronaves-container img:hover {
-    border-color: #c78c19;
+    border-color: rgb(244, 46, 46);
     transform: scale(1.2);
     transition: 0.7s;
     
@@ -366,11 +366,15 @@ button {
     display: none;
 }
 
+._curiosidades-box {
+    padding-bottom: 30px;
+}
+
 ._curiosidades-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 273vh;
+    height: 277vh;
 }
 
 ._curiosidade1 {
@@ -402,7 +406,7 @@ button {
 }
 
 ._curiosidade1 img:hover, ._curiosidade-title2 img:hover, ._curiosidade-title3 img:hover, ._curiosidade-title4 img:hover, ._curiosidade-title5 img:hover, ._curiosidade-title6 img:hover {
-    border-color: yellow;
+    border-color: rgb(244, 46, 46);
     transform: scale(1.2);
     transition: 0.7s;    
 }
@@ -429,7 +433,6 @@ button {
     padding: 6px;
  }
 
-
 ._curuosidade2, ._curiosidade3, ._curiosidade4, ._curiosidade5, ._curiosidade6 {
     display: flex;
     align-items: center;
@@ -455,6 +458,448 @@ button {
 a {
     color: black;
 }
+
+._radio-topgun-container {
+    width: 100%;
+    height: 380vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+._radio-topgun-box {
+    width: 89%;
+    height: 375vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(100, 91, 91);
+    border-radius: 4px;
+    background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
+    padding-bottom: 25px;
+}
+
+._radio-topgun-box h2, ._radio-topgun-box p  {
+    text-align: center;
+}
+
+._radio-topgun-box h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+footer {    
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(to right, #151515 0%, #434343  51%, #151515 100%);  
+}
+
+footer img {
+    height: 22vh;
+}
+
+._footer-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+._span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #c7c7c7; 
+    font-size: 20px;  
+}
+
+._span span {
+    padding: 10px;
+}
+._span a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+._span a:hover, ._curiosidade4-text a:hover {
+    color: #4169E1;
+    transition: 1s;
+}
+
+@media screen and (max-width: 690px) {
+    body {
+        width: auto;
+        height: auto;
+    };
+
+    .__introducao-box, ._introducao-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: auto;
+        height: auto;
+    };
+
+    header {
+        display: flex;
+    }
+
+    header img{        
+        width: 300px ;
+    }
+
+
+    ._carrossel-wrap {
+        display: none;
+    }
+
+    ._container-introducao{
+        padding-top: 25px;  
+    }
+    
+    ._introducao-title {
+        align-items: center;
+        text-align: center;
+    }
+
+    ._trailer {
+        margin: 0;
+        padding: 0;
+    }
+
+    ._introducao-itens {
+        padding-bottom: 530px;
+    }
+
+    ._introducao-text {
+        flex-direction: column;
+    }
+
+    ._container-elenco, ._elenco-box {
+        height: 1300vh;
+    }
+
+    ._aeronaves-container, ._package {
+        height: 800vh;
+    }
+
+    ._aeronaves-box {
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    ._aeronaves-box img {
+        width: 300px;
+    }
+
+    ._text-f-18, ._f-18-extra, ._text-f14, ._f-14-extra, ._text-sukhoi, ._sukhoi-extra, ._text-p51, ._p51-extra, ._text-darkStar, ._dark-extra, ._text-h2r, ._h2r-extra, ._gpz-text, ._gpz-extra {
+        width: 300px;
+        text-align: center;
+    }
+
+    ._text-f-18 p {
+       padding-bottom: 20px;
+    }
+
+    ._text-darkStar p {
+       width: 300px;
+       align-items: center;
+    }
+
+    #reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #alinhamento{
+        padding-right: 15px;
+    }
+
+    ._motos-titulo {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    button {
+        display: none;
+    }
+
+    ._curiosidades-container {
+        padding-top: 30px;
+        padding-bottom: 25px;   
+    }
+
+    ._curiosidades-container, ._curiosidades-box {
+        height: 600vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    ._curiosidades-title{
+        height: 55vh;
+    }
+
+    ._curiosidades-title h3 {
+        width: 300px;
+        text-align: center;
+    }
+
+    ._curiosidades-box {
+        justify-content: space-around;
+    }
+
+    ._title-curiosidades {
+        padding-top: 20px;
+    }
+
+    ._curiosidade1, ._curiosidade2, ._curiosidade3, ._curiosidade4, ._curiosidade5, ._curiosidade6 {
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+   
+    ._curuosidade2 {
+        flex-direction: column;
+        padding-top: 160px;
+    }
+
+    ._curiosidade3 {
+        padding-top: 160px;
+    }
+
+    ._curiosidade4 {
+        padding-top: 250px; 
+    }
+
+    ._curiosidade5 {
+        padding-top: 120px;
+    }
+
+    ._curiosidade-title2, ._curiosidade-title3, ._curiosidade-title4, ._curiosidade-title5, ._curiosidade-title6 {
+        width: 320px;
+    }
+
+    ._curiosidade1-text, ._curiosidade6-text {
+        width: 300px;
+        padding-top: 130px;
+        padding-left: 20px;
+
+    }
+
+    ._curiosidade2-text, ._curiosidade3-text, ._curiosidade4-text, ._curiosidade5-text {
+        width: 300px;
+        text-align: center;
+    }
+
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
+
+    footer span {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+        width: auto;
+        height: auto;
+    };
+
+    header {
+        display: flex;
+    }
+
+    header img{        
+        width: 300px ;
+    }
+
+
+    ._carrossel-wrap {
+        display: none;
+    }
+
+    ._container-introducao{
+        padding-top: 25px;  
+    }
+
+    ._container-introducao, ._introducao, ._introducao-box {
+        height: 190vh;
+    }
+
+    ._trailer video {
+        width: 300px;
+    }
+
+    ._introducao-title {
+        align-items: center;
+        text-align: center;
+    }
+
+    ._trailer {
+        margin: 0;
+        padding: 0;
+    }
+
+    ._introducao-itens {
+        padding-bottom: 530px;
+    }
+
+    ._introducao-text {
+        flex-direction: column;
+    }
+
+    ._container-elenco, ._elenco-box {
+        height: 1000vh;
+    }
+
+    ._aeronaves-container, ._package {
+        height: 500vh;
+    }
+
+    ._aeronaves-box {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    ._aeronaves-box img {
+        width: 300px;
+    }
+
+    ._text-f-18, ._f-18-extra, ._text-f14, ._f-14-extra, ._text-sukhoi, ._sukhoi-extra, ._text-p51, ._p51-extra, ._text-darkStar, ._dark-extra, ._text-h2r, ._h2r-extra, ._gpz-text, ._gpz-extra {
+        width: 300px;
+        text-align: center;
+    }
+
+    ._text-f-18 p {
+       padding-bottom: 20px;
+    }
+
+    ._text-darkStar p {
+       width: 300px;
+       align-items: center;
+    }
+
+    #reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #alinhamento{
+        padding-right: 15px;
+    }
+
+    ._motos-titulo {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    button {
+        display: none;
+    }
+
+    ._curiosidades-container {
+        padding-top: 30px;
+        padding-bottom: 25px;   
+    }
+
+    ._curiosidades-container, ._curiosidades-box {
+        height: 500vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    ._curiosidades-title{
+        height: 55vh;
+    }
+
+    ._curiosidades-title h3 {
+        width: 300px;
+        text-align: center;
+    }
+
+    ._curiosidades-box {
+        justify-content: space-around;
+    }
+
+    ._title-curiosidades {
+        padding-top: 20px;
+    }
+
+    ._curiosidade1, ._curiosidade2, ._curiosidade3, ._curiosidade4, ._curiosidade5, ._curiosidade6 {
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+   
+    ._curuosidade2 {
+        flex-direction: column;
+        padding-top: 160px;
+    }
+
+    ._curiosidade3 {
+        padding-top: 160px;
+    }
+
+    ._curiosidade4 {
+        padding-top: 250px; 
+    }
+
+    ._curiosidade5 {
+        padding-top: 120px;
+    }
+
+    ._curiosidade-title2, ._curiosidade-title3, ._curiosidade-title4, ._curiosidade-title5, ._curiosidade-title6 {
+        width: 320px;
+    }
+
+    ._curiosidade1-text, ._curiosidade6-text {
+        width: 300px;
+        padding-top: 130px;
+        padding-left: 20px;
+
+    }
+
+    ._curiosidade2-text, ._curiosidade3-text, ._curiosidade4-text, ._curiosidade5-text {
+        width: 300px;
+        text-align: center;
+    }
+
+    footer {
+        height: 150px;  
+    }
+
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
+
+    footer span {
+        font-size: 15px;
+    }
+
+}
+
 
 
 
