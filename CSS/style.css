@@ -665,8 +665,14 @@ footer img {
         flex-direction: column;
     }
 
+    ._curiosidades-box h2 {       
+        height: 8vh;
+        padding-bottom: 10px;
+    }
+
     ._curiosidades-title{
-        height: 55vh;
+        height: 10vh;
+        padding-bottom: 180px;
     }
 
     ._curiosidades-title h3 {
@@ -674,9 +680,7 @@ footer img {
         text-align: center;
     }
 
-    ._curiosidades-box {
-        justify-content: space-around;
-    }
+
 
     ._title-curiosidades {
         padding-top: 20px;
@@ -686,24 +690,14 @@ footer img {
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
+        height: 10vh;
     }
    
     ._curuosidade2 {
         flex-direction: column;
-        padding-top: 160px;
+        padding-top: 300px;
     }
 
-    ._curiosidade3 {
-        padding-top: 160px;
-    }
-
-    ._curiosidade4 {
-        padding-top: 250px; 
-    }
-
-    ._curiosidade5 {
-        padding-top: 120px;
-    }
 
     ._curiosidade-title2, ._curiosidade-title3, ._curiosidade-title4, ._curiosidade-title5, ._curiosidade-title6 {
         width: 320px;
@@ -711,7 +705,6 @@ footer img {
 
     ._curiosidade1-text, ._curiosidade6-text {
         width: 300px;
-        padding-top: 130px;
         padding-left: 20px;
 
     }
@@ -719,6 +712,10 @@ footer img {
     ._curiosidade2-text, ._curiosidade3-text, ._curiosidade4-text, ._curiosidade5-text {
         width: 300px;
         text-align: center;
+    }
+
+    ._curiosidade2-text {
+        padding-bottom: 350px;
     }
 
     footer {
